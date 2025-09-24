@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JSON Comparison Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- jsondiffpatch library for advanced diffing and visualization -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsondiffpatch@0.4.1/dist/formatters-styles/html.css" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/jsondiffpatch@0.4.1/dist/jsondiffpatch.umd.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb; /* bg-gray-50 */
+        }
+        /* Simple scrollbar styling */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #e5e7eb; }
+        ::-webkit-scrollbar-thumb { background: #9ca3af; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+
+        /* Textarea styling for Light Mode */
+        textarea {
+            background-color: #ffffff;
+            border: 1px solid #d1d5db; /* border-gray-300 */
+            color: #111827; /* text-gray-900 */
+            font-family: monospace;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+        }
+        textarea:focus {
+            outline: 2px solid #3b82f6;
+            outline-offset: 2px;
+            border-color: #3b82f6;
+        }
+
+        /* Light theme for jsondiffpatch output */
+        .jsondiffpatch-delta { color: #1f2937; }
+        .jsondiffpatch-property-name { color: #4b5563; }
+        .jsondiffpatch-value pre { color: #111827; }
+        
+        .jsondiffpatch-added .jsondiffpatch-property-name,
+        .jsondiffpatch-added .jsondiffpatch-value pre {
+            color: #047857; /* text-emerald-700 */
+        }
+        .jsondiffpatch-deleted .jsondiffpatch-property-name,
+        .jsondiffpatch-deleted .jsondiffpatch-value pre {
+            color: #b91c1c; /* text-red-700 */
+        }
+        .jsondiffpatch-modified .jsondiffpatch-property-name { color: #b45309; } /* text-amber-700 */
+        
+        .jsondiffpatch-left-value pre { text-decoration: line-through; color: #991b1b; }
+        .jsondiffpatch-right-value pre { color: #065f46; }
+
+        .jsondiffpatch-unchanged, .jsondiffpatch-movedestination { background-color: #f3f4f6; }
+        .jsondiffpatch-added { background-color: #d1fae5; } /* bg-green-100 */
+        .jsondiffpatch-deleted { background-color: #fee2e2; } /* bg-red-100 */
+        .jsondiffpatch-modified { background-color: #fef3c7; } /* bg-amber-100 */
+        ul.jsondiffpatch-textdiff { background-color: #e5e7eb; }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <header class="text-center mb-6">
+            <h1 class="text-4xl font-bold text-gray-900">Interactive JSON Comparison Tool</h1>
+            <p class="mt-2 text-gray-600">Paste your JSON in the panels below and click Compare to see the differences.</p>
+        </header>
+        
+        <div id="sample-notice" class="hidden bg-blue-100 border border-blue-300 text-blue-800 rounded-lg p-4 text-center mb-6 max-w-3xl mx-auto">
+            <p><strong>Demonstrating with sample data.</strong> You can edit this data or paste your own.</p>
+        </div>
+
+        <!-- Action Bar -->
+        <div class="text-center mb-6">
+            <button id="compare-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                Compare
+            </button>
+        </div>
+
+        <!-- Main Content Area -->
+        <div id="main-content">
+            <!-- JSON Input Panels -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+                <div class="bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col">
+                    <div class="p-4 border-b border-gray-200"><h2 class="text-xl font-semibold text-gray-900 truncate" id="fileATitle">JSON A</h2></div>
+                    <textarea id="jsonA-input" class="w-full h-96 p-4 rounded-b-lg resize-y" spellcheck="false"></textarea>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col">
+                    <div class="p-4 border-b border-gray-200"><h2 class="text-xl font-semibold text-gray-900 truncate" id="fileBTitle">JSON B</h2></div>
+                    <textarea id="jsonB-input" class="w-full h-96 p-4 rounded-b-lg resize-y" spellcheck="false"></textarea>
+                </div>
+            </div>
+
+            <!-- Error Messages -->
+            <div id="error-container" class="text-center mb-6"></div>
+
+            <!-- Results Panel -->
+            <div id="results-container" class="bg-white border border-gray-200 rounded-lg shadow-sm mt-8">
+                <div class="p-4 border-b border-gray-200">
+                    <h2 class="text-2xl font-bold text-gray-900">Comparison Results (Differences)</h2>
+                </div>
+                <div id="diff-output" class="p-4 md:p-6"></div>
+            </div>
+
+            <!-- Common Values Panel -->
+            <div id="common-container" class="bg-white border border-gray-200 rounded-lg shadow-sm mt-8" style="display: none;">
+                <div class="p-4 border-b border-gray-200">
+                    <h2 class="text-2xl font-bold text-gray-900">Common Values</h2>
+                </div>
+                <div class="p-4 md:p-6">
+                    <pre id="common-output" class="text-sm"><code></code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const fileA = params.get('fileA');
+            const fileB = params.get('fileB');
+
+            const sampleNoticeEl = document.getElementById('sample-notice');
+            const fileATitleEl = document.getElementById('fileATitle');
+            const fileBTitleEl = document.getElementById('fileBTitle');
+            const jsonAInput = document.getElementById('jsonA-input');
+            const jsonBInput = document.getElementById('jsonB-input');
+            const compareBtn = document.getElementById('compare-btn');
+            const diffOutput = document.getElementById('diff-output');
+            const errorContainer = document.getElementById('error-container');
+            const commonContainer = document.getElementById('common-container');
+            const commonOutput = document.getElementById('common-output').querySelector('code');
+
+            const jsonDiffPatcher = jsondiffpatch.create({
+                textDiff: { minLength: 60 }
+            });
+
+            const findCommon = (obj1, obj2) => {
+                const common = {};
+                if (!obj1 || !obj2 || typeof obj1 !== 'object' || typeof obj2 !== 'object') {
+                    return common;
+                }
+
+                for (const key in obj1) {
+                    if (obj2.hasOwnProperty(key)) {
+                        const val1 = obj1[key];
+                        const val2 = obj2[key];
+
+                        if (typeof val1 === 'object' && val1 !== null && typeof val2 === 'object' && val2 !== null) {
+                            if (Array.isArray(val1) && Array.isArray(val2)) {
+                                if (JSON.stringify(val1) === JSON.stringify(val2)) {
+                                    common[key] = val1;
+                                }
+                            } else if (!Array.isArray(val1) && !Array.isArray(val2)) {
+                                const nestedCommon = findCommon(val1, val2);
+                                if (Object.keys(nestedCommon).length > 0) {
+                                    common[key] = nestedCommon;
+                                }
+                            }
+                        } else if (val1 === val2) {
+                            common[key] = val1;
+                        } else if (typeof val1 === 'string' && typeof val2 === 'string') {
+                            // Find common words in non-identical strings
+                            const cleanAndSplit = (str) => new Set(str.toLowerCase().replace(/[.,!?;:]/g, '').split(/\s+/).filter(Boolean));
+                            
+                            const words1 = cleanAndSplit(val1);
+                            const words2 = cleanAndSplit(val2);
+
+                            const commonWords = [...words1].filter(word => words2.has(word));
+
+                            if (commonWords.length > 0) {
+                                common[key] = { "_common_words": commonWords };
+                            }
+                        }
+                    }
+                }
+                return common;
+            };
+
+            const performComparison = () => {
+                errorContainer.innerHTML = '';
+                let jsonA, jsonB;
+
+                try {
+                    jsonA = JSON.parse(jsonAInput.value);
+                } catch (e) {
+                    showError('Invalid JSON in Panel A: ' + e.message);
+                    return;
+                }
+                try {
+                    jsonB = JSON.parse(jsonBInput.value);
+                } catch (e) {
+                    showError('Invalid JSON in Panel B: ' + e.message);
+                    return;
+                }
+
+                // Show differences
+                const delta = jsonDiffPatcher.diff(jsonA, jsonB);
+                diffOutput.innerHTML = jsondiffpatch.formatters.html.format(delta, jsonA);
+                if (!delta) {
+                    diffOutput.innerHTML = '<p class="text-green-600 text-center font-semibold">The two JSON objects are identical.</p>';
+                }
+
+                // Show common values
+                const commonValues = findCommon(jsonA, jsonB);
+                if (Object.keys(commonValues).length > 0) {
+                    commonContainer.style.display = 'block';
+                    commonOutput.textContent = JSON.stringify(commonValues, null, 2);
+                } else {
+                    commonContainer.style.display = 'none';
+                }
+            };
+            
+            const showError = (message) => {
+                const errorEl = document.createElement('p');
+                errorEl.className = 'text-red-700 bg-red-100 p-3 rounded-lg';
+                errorEl.textContent = message;
+                errorContainer.appendChild(errorEl);
+            };
+
+            compareBtn.addEventListener('click', performComparison);
+
+            const loadInitialData = async () => {
+                if (fileA && fileB) {
+                    fileATitleEl.textContent = `File A: ${fileA}`;
+                    fileBTitleEl.textContent = `File B: ${fileB}`;
+                    try {
+                        const [resA, resB] = await Promise.all([fetch(fileA), fetch(fileB)]);
+                        if (!resA.ok) throw new Error(`Failed to fetch ${fileA} (Status: ${resA.status})`);
+                        if (!resB.ok) throw new Error(`Failed to fetch ${fileB} (Status: ${resB.status})`);
+                        
+                        const textA = await resA.text();
+                        const textB = await resB.text();
+                        
+                        jsonAInput.value = JSON.stringify(JSON.parse(textA), null, 2);
+                        jsonBInput.value = JSON.stringify(JSON.parse(textB), null, 2);
+                    } catch (e) {
+                        showError(e.message);
+                        loadSampleData(); // Fallback to sample data on fetch error
+                    }
+                } else {
+                    loadSampleData();
+                }
+                performComparison();
+            };
+
+            const loadSampleData = () => {
+                sampleNoticeEl.classList.remove('hidden');
+                const sampleA = { "name": "Project Alpha", "version": "1.0.0", "status": "active", "description": "This is the original project description, which is a moderately long string of text.", "maintainers": [{ "name": "Alice", "email": "alice@example.com" }, { "name": "Bob", "email": "bob@example.com" }], "config": { "retries": 3, "timeout": 5000, "logging": true }, "dependencies": { "lib-x": "1.2.3" } };
+                const sampleB = { "name": "Project Alpha", "version": "1.1.0", "status": "deprecated", "description": "This is the modified project description, which is a rather long string of text.", "maintainers": [{ "name": "Alice", "email": "alice@example.com" }, { "name": "Charlie", "email": "charlie@example.com" }], "config": { "retries": 5, "timeout": 5000, "cache": "enabled" }, "newFeature": true };
+                jsonAInput.value = JSON.stringify(sampleA, null, 2);
+                jsonBInput.value = JSON.stringify(sampleB, null, 2);
+            };
+
+            loadInitialData();
+        });
+    </script>
+</body>
+</html>
+
