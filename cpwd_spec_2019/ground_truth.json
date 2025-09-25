@@ -1,0 +1,166 @@
+[
+  {
+    "Sl.No.": 1.0,
+    "Material Name (or) Procedure": "Cement",
+    "tests": [
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "a. 33 Grade Ordinary Portland cement conforming to IS 269. b. 43 Grade ordinary Portland cement conforming to IS 8112 c. 53 Grade ordinary Portland Cement conforming to IS 12269 d. Portland slag cement conforming to IS 455. e. Porland pozzolana cement (fly ash based) conforming to IS 1489 (Part I) 19 f. Portland pozzolona cement (calcined clay based conforming to IS 1489 (Part 2) g. Sulphate resisting Portland cement conforming to IS 12330. h. High Alumina cement - conforming to IS 6452 2. i. Low heat cement - conforming to IS 12600 j. Super sulphate cement - conforming to IS 6909 k. Rapid Hardening cement - conforming to IS 8041. Mentioned in Page 19 and 20.",
+        "Specific Material Type (or) Material Definition": "a. 33 Grade Ordinary Portland cement. b. 43 Grade Ordinary Portland cement. c. 53 Grade Ordinary Portland cement. d. Portland slag cement e. Porland pozzolana cement f. Portland pozzolona cement g. Sulphate resisting Portland cement h. High Alumina cement i. Low heat cement j. Super sulphate cement k. Rapid Hardening cement. l. Blended Cement.",
+        "Any other relevant information": "Storage Shed: Cement bag Shall be stacked in a shed that is: Dry, leakproof, Moisture proof. Store under tarpaulins will not be permitted. Flooring: Flooring shall consist of two layers of dry bricks laid on well- consolidated. This avoids direct contact of cement bags with the floor. Stacking: cement bags shall be stacked 150 - 200 mm clear above the floor using wooden plank. Stacks ahall be kept 450 mm away from walls. Cement bags shall be arranged in arows of two bags, with minimum 600 mm spacing . In each row cement bags shall be closelt packed to reduce air circulation. Maximum stacking Height: Not more than 10 bags. For stacks more than 8 bags high, arrange in header and strecher. Tie the stacks together. Minimize danger of toppling. Use of cement: Damaged (or) reclaimed (or) partly set cement shall not bepermitted for use. Cement shall be consumed in order of delivery (First-In, First-Out principle). Retesting of cement: Cement stored for 90 days or longer shall be retested before use. Cement shall not be used untill test results are satisfactory. "
+      }
+    ]
+  },
+  {
+    "Sl.No.": 2.0,
+    "Material Name (or) Procedure": "Mineral Admixtures",
+    "test": [
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Fly ash (Pulverized fuel ash) conforming to IS 3812 Grade 1 mentioned in Page 20. ",
+        "Specific Material Type (or) Material Definition": "a. Fly ash. ",
+        "Any other relevant information": "Fly ash used as part replacement of ordinary Portland cement provided uniform blending with cement is ensured."
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": null,
+        "Specific Material Type (or) Material Definition": "b. Silica fume. ",
+        "Any other relevant information": "It is usually used in proportion of 5 to 10 percent of the cement content of a mix."
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": null,
+        "Specific Material Type (or) Material Definition": "c. Rice husk ash. ",
+        "Any other relevant information": "It is necessary to evaluate the product from a particular source for performance and uniformity since it can range from being as deleterious as silt when incorporated in concrete. Water demand and drying shrinkage should be studied before using rice husk."
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": null,
+        "Specific Material Type (or) Material Definition": "d. Metakaoline",
+        "Any other relevant information": "Metakaoline having fineness between 700 to 900m (or) kg may be used as pozzolanic material in concrete."
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Ground Granulated Blast Furnace Slag conforming to IS 12089 mentioned in Page 21. ",
+        "Specific Material Type (or) Material Definition": "e. Ground Granulated Blast Furnace Slag.",
+        "Any other relevant information": "Ground Granulated Blast Furnace Slag used as part replacement of ordinary Portland cement provided uniform blending with cement is assured."
+      }
+    ]
+  },
+  {
+    "Sl.No.": 3.0,
+    "Material Name (or) Procedure": "Fine Aggregate",
+    "tests": [
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "1. Quality of Aggregates, Size, Grading, Sampling and Testing - Specification for coarse and fine aggregates from natural resources for concrete - Page 22, IS 383 - 1970. 2. Foreign material limitation as mentioned in Table in Page 23. 3. Gradation as mentioned in Table in Page 23. 4. Determination of Fineness Modulus mentioned in Page 24. ",
+        "Specific Material Type (or) Material Definition": "River Sand or Crushed Sand. Aggregate most of which passes through 4.75 mm I.S. Sieve Fine aggregate for concrete, except as noted above and for other than light weight concrete shall conform to I.S. 383.",
+        "Any other relevant information": "1. Sand with silt content more than 3 percent will not be permitted to be used unless the same is washed and silt content is brought within 3% by weight. 2. The sand shall have a fineness modulus of not less than 2.2 or more than 3.2. 1. The sand shall be clean, sharp, hard, strong and durable and shall be free from dust, vegetable substances, adherent coating, clay, loam, alkali, organic matter, mica, salt or other deleterious substances which can be injurious to the setting qualities (or) strength (or) durability of concrete. 2. Where the grading falls outside the limits of any particular grading zone of sieves, other than 600 micron (I.S.) sieve by not more than 5%, it shall be regarded as falling within that grading zone. This tolerance shall not be applied to percentage passing the 600 micron (I.S.) sieve or to percentage passing any other sieve size on the coarser limit of grading zone I or the finer limit of grading zone IV. Fine aggregates conforming to Grading Zone IV shall not be used unless mix designs and preliminary tests have shown its suitability for producing concrete of specified strength and workability."
+      }
+    ]
+  },
+  {
+    "Sl.No.": 4.0,
+    "Material Name (or) Procedure": "Coarse Aggregate",
+    "tests": [
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "1. Quality of Aggregates, Size, Grading, Sampling and Testing - Specification for coarse and fine aggregates from natural resources for concrete - Page 22, IS 383 - 1970. 2. Gradation as mentioned in Table in Page 24. 3. Sedimentation test - Page25, IS 2386. 4. Foreign material limitation as mentioned in Table in Page 25. ",
+        "Specific Material Type (or) Material Definition": "Natural or Crushed Stone, Gravel. Aggregate most of which is retained through 4.75 mm I.S. Sieve. Coarse aggregate for concrete, except as noted above and for other than light weight concrete shall conform to I.S. 383.",
+        "Any other relevant information": "1. Aggregates having a specific gravity below 2.6 (saturated surface dry basis) shall not be used without special permission of the Engineer-in-Charge. 2. For heavily reinforced concrete members, the nominal maximum size of the aggregate shall be 5 mm. 3. less than the minimum clear distance between the reinforcing main bars or 5mm less than the minimum cover to the reinforcement whichever is smaller. 1. Preference shall be given to Machine broken and graded aggregate. 2. Aggregate shall be chemically inert, strong, hard, durable against weathering, of limited porosity and free from deleterious materials that may cause corrosion to the reinforcement or may impair the strength and (or) or durability of concrete. 3. The grading of aggregates shall be such as to produce a dense concrete of specified strength and consistency that will work readily into position without segregation and shall be based on the mix design and preliminary test on concrete specified herein-after."
+      }
+    ]
+  },
+  {
+    "Sl.No.": 5.0,
+    "Material Name (or) Procedure": "Water",
+    "tests": [
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Suitability of water shall be ascertained by test specified in IS 456 - 2000 mentioned in Page 25. a. Comperssive strength test conforming to IS 516 mentioned in Page 25. b.Initial setting time test conforming to IS 4031 Part - 5 mentioned in Page 26. c. Limit od acidity as per IS 3025 Part -22 mentioned in 26. d. Limits of Alkalinity as per IS 3025 Part -23 mentioned in Page 26. e. Permissiible limits for Solids mentioned in a Table in Page 26. ",
+        "Specific Material Type (or) Material Definition": "Potable water for mixing and curing concrete.",
+        "Any other relevant information": "The PH value of water shall be not less than 6.Where water can be shown to contain an excess of acid, alkali, sugar or salt, Engineer-in-Charge may refuse to permit its use."
+      }
+    ]
+  },
+  {
+    "Sl.No.": 6.0,
+    "Material Name (or) Procedure": "Chemical Admixtures",
+    "test": [
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Chemical Admixtures shall comply with IS 9103.",
+        "Specific Material Type (or) Material Definition": "Calcium Chloride",
+        "Any other relevant information": " When calcium chloride is permitted to be used, such as in mass concrete works, it shall be dissolved in water and added to the mixing water in an amount not to exceed 1 .5 percent of the weight of cement in each batch of concrete. "
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": null,
+        "Specific Material Type (or) Material Definition": "Air Entraining Agents",
+        "Any other relevant information": "The recommended total air content of the concrete is 4% (+ (or) -) 1%. The method of measuring air content shall be as per I.S.1199. "
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": null,
+        "Specific Material Type (or) Material Definition": "Retarding Admixtures",
+        "Any other relevant information": null
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": null,
+        "Specific Material Type (or) Material Definition": "Water Reducing Admixture",
+        "Any other relevant information": "The admixtures shall be added in the form of a solution"
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": null,
+        "Specific Material Type (or) Material Definition": "Water Proofing Agents",
+        "Any other relevant information": null
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": null,
+        "Specific Material Type (or) Material Definition": "Other Admixtures",
+        "Any other relevant information": "Engineer-in-Charge may at his discretion, instruct contractor to use any other admixture in the concrete. "
+      }
+    ]
+  },
+  {
+    "Sl.No.": 7.0,
+    "Material Name (or) Procedure": "Mix Design",
+    "test": [
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Mix Proportion - Page 26, ACI - 613 or Design of concrete mixes - Road Research Note No.4, Department of Scientific and Industrial Research U.K. or IS 10262 - 2009. ",
+        "Specific Material Type (or) Material Definition": "All reinforced concrete in the works shall be Design Mix Concrete as defined in I.S. 456-2000.",
+        "Any other relevant information": "Specified Characteristic Compressive strength of Concrete for different concrete grades as mentioned in Table in Page 27. "
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Minimum Cement Content, Maximum Water Cement Ratio and Minimum Grade of Concrete for Different Exposures with Normal Weight Aggregates of 20 mm Nominal Maximum size mentioned in a Table in Page 28.",
+        "Specific Material Type (or) Material Definition": "All reinforced concrete in the works shall be Design Mix Concrete as defined in I.S. 456-2000.",
+        "Any other relevant information": "Minimum Cement Content, Maximum Water Cement Ratio and Minimum Grade of Concrete for Different Exposures with Normal Weight Aggregates of 20 mm Nominal Maximum size mentioned in Table in Page 28."
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Nominal cover for concrete for varied exposure conditions mentioned in Table in Page 28.",
+        "Specific Material Type (or) Material Definition": "All reinforced concrete in the works shall be Design Mix Concrete as defined in I.S. 456-2000.",
+        "Any other relevant information": "For main reinforcement up to 12 mm diameter bar for mild exposure the nominal cover may be reduced by 5 mm. 2. Unless specified otherwise, actual concrete cover should not deviate from the required nominal cover by + 10 mm 3. For exposure conditions severe and very severe , reduction of 5 mm may be made, where concrete grade is M 35 and above. 4. Nominal cover to meet specified period of fire resistance"
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Selection of Water-Cement Ratio mentioned in Page 29 as per IS 10262. Calculated Mix Proportions Checked by Trial Batches as per IS 10262 mentioned in Page 30.",
+        "Specific Material Type (or) Material Definition": "All reinforced concrete in the works shall be Design Mix Concrete as defined in I.S. 456-2000.",
+        "Any other relevant information": "Alternately, the preliminary free water cement ratio (by mass) corresponding to the target average strength may be selected from the relationship in Fig.2- IS 10262, using the curve corresponding to the 28 days cement strength to be used for the purpose. Other relevant items to be used with design of mix should strictly conform to the relevant clauses and appendices of I.S. 10262. "
+      },
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Table for Assumed Standard Deviation for Different Concrete grades mentioned in Page 31.",
+        "Specific Material Type (or) Material Definition": "All reinforced concrete in the works shall be Design Mix Concrete as defined in I.S. 456-2000.",
+        "Any other relevant information": null
+      }
+    ]
+  },
+  {
+    "Sl.No.": 8.0,
+    "Material Name (or) Procedure": "Batching",
+    "tests": [
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Material Batching by weight as per IS 2722, mentioned in Page 32.",
+        "Specific Material Type (or) Material Definition": null,
+        "Any other relevant information": "In batching concrete, the quantity of both cement and aggregate shall be determined by mass; admixture, if solid, by mass; liquid admixture may however be measured in volume or mass; water shall be weighed or measured by volume in a calibrated tank ( see also IS4925)"
+      }
+    ]
+  },
+  {
+    "Sl.No.": 9.0,
+    "Material Name (or) Procedure": "Workability of Concrete",
+    "tests": [
+      {
+        "Test Name (or) Reference Code (or) Standard as per the given document (with reference page number)": "Required Degree of Workability acoording to the placing condition and their required slump value mentioned in Table in Page 33 and 34.",
+        "Specific Material Type (or) Material Definition": null,
+        "Any other relevant information": "1. For most of the placing conditions, internal vibrators (needle vibrators) are suitable. The diameter of the needle shall be determined based on the density and spacing of reinforcement bars and thickness of sections. For tremie concrete, vibrators are not required to be used. 2. The very low category of workability where strict control is necessary, for example pavement quality concrete, measurement of workability by determination of compacting factor will be more appropriate than slump (see IS 1199) and a value of compacting factor of 0.75 to 0.80 is suggested. 3. In the Very high category of workability, measurement of workability by determination of flow will be appropriate (see IS 9103). "
+      }
+    ]
+  }
+]
