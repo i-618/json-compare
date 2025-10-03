@@ -1,6 +1,6 @@
 [
   {
-    "Sl.No.": 1.0,
+    "Sl.No.": 1,
     "Material Name (or) Procedure": "Cement",
     "tests": [
       {
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "Sl.No.": 2.0,
+    "Sl.No.": 2,
     "Material Name (or) Procedure": "Mineral Admixtures",
     "test": [
       {
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "Sl.No.": 4.0,
+    "Sl.No.": 4,
     "Material Name (or) Procedure": "Coarse Aggregate",
     "tests": [
       {
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "Sl.No.": 5.0,
+    "Sl.No.": 5,
     "Material Name (or) Procedure": "Water",
     "tests": [
       {
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "Sl.No.": 6.0,
+    "Sl.No.": 6,
     "Material Name (or) Procedure": "Chemical Admixtures",
     "test": [
       {
@@ -111,7 +111,7 @@
     ]
   },
   {
-    "Sl.No.": 7.0,
+    "Sl.No.": 7,
     "Material Name (or) Procedure": "Mix Design",
     "test": [
       {
@@ -142,7 +142,7 @@
     ]
   },
   {
-    "Sl.No.": 8.0,
+    "Sl.No.": 8,
     "Material Name (or) Procedure": "Batching",
     "tests": [
       {
@@ -153,7 +153,7 @@
     ]
   },
   {
-    "Sl.No.": 9.0,
+    "Sl.No.": 9,
     "Material Name (or) Procedure": "Workability of Concrete",
     "tests": [
       {
