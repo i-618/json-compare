@@ -1,0 +1,361 @@
+[
+    {
+        "material": "Cement",
+        "tests": [
+            {
+                "test_name": "Chemical Composition",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "Relevant codes"
+                ],
+                "reference_page_number": 100
+            },
+            {
+                "test_name": "Physical Characteristics",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "Relevant codes"
+                ],
+                "reference_page_number": 100
+            },
+            {
+                "test_name": "Chloride Content",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "N/A"
+                ],
+                "reference_page_number": 100
+            },
+            {
+                "test_name": "Sampling",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "IS 3535"
+                ],
+                "reference_page_number": 100
+            }
+        ],
+        "specific_material_type": [
+            "Types of cement supplied as per relevant codes"
+        ],
+        "other_relavent_info": [
+            "Supplier of cement shall furnish certificates confirming that chemical composition and physical characteristics are within the stipulated values for types of cement supplied as per relevant codes.",
+            "Supplier shall furnish a certificate confirming that the chloride content in the cement is not in excess of 0.05 percent of mass of cement.",
+            "If during subsequent testing of cement supplied in lots any of the properties are found to be outside the acceptable limits, the lot of cement shall be rejected.",
+            "Each 1000 bags or part thereof the cement or each wagon load of cement shall constitute one lot of cement for the purpose of conducting tests at site before cement is accepted.",
+            "Samples for testing at site shall be taken at random from 2% of the total quantity supplied in one lot. For cement supplied in bags, samples shall be drawn from a minimum of 5 bags, and the 2% value shall be rounded off to the next higher integer. For bulk cement, sampling shall be done with the help of a slotted sampler as per IS 3535."
+        ],
+        "Sl.No.": 1
+    },
+    {
+        "material": "Mineral Admixtures",
+        "tests": [
+            {
+                "test_name": "Initial and final setting time of concrete",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "IS 8142"
+                ],
+                "reference_page_number": 90
+            }
+        ],
+        "specific_material_type": [
+            "N/A"
+        ],
+        "other_relavent_info": [
+            "N/A"
+        ],
+        "Sl.No.": 2
+    },
+    {
+        "material": "Fine Aggregate",
+        "tests": [],
+        "specific_material_type": [
+            "N/A"
+        ],
+        "other_relavent_info": [
+            "Water, cement, fine aggregate or sand, surkhi, and fly ash shall be as specified in Chapter 3.0 \u2013 Mortar."
+        ],
+        "Sl.No.": 3
+    },
+    {
+        "material": "Coarse Aggregate",
+        "tests": [
+            {
+                "test_name": "Determination of particle size and shape",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "IS 2386"
+                ],
+                "reference_page_number": 0
+            },
+            {
+                "test_name": "Estimation of organic impurities",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "IS 2386 - Part II"
+                ],
+                "reference_page_number": 0
+            },
+            {
+                "test_name": "Surface moisture",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "IS 2386"
+                ],
+                "reference_page_number": 0
+            },
+            {
+                "test_name": "Determination of 10% fine value",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "IS 2386"
+                ],
+                "reference_page_number": 0
+            },
+            {
+                "test_name": "Sieve analysis",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "Appendix \u2018A\u2019 of Chapter 4.0"
+                ],
+                "reference_page_number": 0
+            }
+        ],
+        "specific_material_type": [
+            "Stone Aggregate: It shall consist of naturally occurring (uncrushed, crushed or broken) stones. It shall be hard, strong, dense, durable and clean. It shall be free from veins, adherent coating, injurious amounts of disintegrated pieces, alkali, vegetable matter and other deleterious substances. It shall be roughly cubical in shape. Flaky and elongated pieces shall be avoided.",
+            "Gravel",
+            "Brick Aggregate",
+            "Light weight aggregate such as sintered fly ash aggregate"
+        ],
+        "other_relavent_info": [
+            "Aggregate most of which is retained on 4.75 mm IS Sieve and contains only as much fine material as is permitted in IS 383 for various sizes and grading is known as coarse aggregate.",
+            "Coarse aggregate shall be specified as stone aggregate, gravel or brick aggregate and it shall be obtained from approved/ authorized sources.",
+            "Coarse aggregate shall not contain any deleterious material, such as pyrites, coal, lignite, mica, shale or similar laminated material, clay, alkali, soft fragments, sea shells and organic impurities in such quantity as to affect the strength or durability of the concrete.",
+            "Coarse aggregate to be used for reinforced cement concrete shall not contain any material liable to attack the steel reinforcement.",
+            "Aggregates which are chemically reactive with alkalies of cement shall not be used.",
+            "The maximum quantity of deleterious material shall not be more than five percent of the weight of coarse aggregate when determined in accordance with IS 2386.",
+            "Size and Grading shall be as specified in Table 4.4 when tested for sieve analysis for the method prescribed in Appendix \u2018A\u2019 of Chapter 4.0.",
+            "Aggregate shall be stacked on a hard, dry and level patch of ground.",
+            "When stack piling, the aggregate shall not form pyramids resulting in segregation of different sized materials.",
+            "It shall be stacked separately according to nominal size of coarse aggregates.",
+            "Stacking shall be done in regular stacks, of height not exceeding 100 cm."
+        ],
+        "Sl.No.": 4
+    },
+    {
+        "material": "Water",
+        "tests": [
+            {
+                "test_name": "N/A",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "IS 456"
+                ],
+                "reference_page_number": 88
+            }
+        ],
+        "specific_material_type": [
+            "N/A"
+        ],
+        "other_relavent_info": [
+            "Water used shall be in accordance with the requirement of IS 456 (reference_page_number - 88).",
+            "Unless otherwise agreed, the testing frequencies for water shall be as given in Annex A (reference_page_number - 88).",
+            "The use of re-cycled water is encouraged as long as concrete of satisfactory performance can be produced and steps are taken to monitor the build up of chlorides in any recirculated water and that any subsequent adjustments to the mix design are made to ensure that any overall limit on chloride contents is satisfied (reference_page_number - 88).",
+            "The addition of any recycled water shall be monitored and controlled to meet these requirements (reference_page_number - 88).",
+            "The total amount of water added to the mix shall be recorded in the production record (reference_page_number - 88)."
+        ],
+        "Sl.No.": 5
+    },
+    {
+        "material": "Chemical Admixtures",
+        "tests": [
+            {
+                "test_name": "Initial and final setting time of concrete",
+                "specific_material_type": "concrete when admixture is used at adopted dosage",
+                "reference_code_or_standard": [
+                    "IS 8142"
+                ],
+                "reference_page_number": 90
+            },
+            {
+                "test_name": "Characteristic properties of admixture",
+                "specific_material_type": "Any admixture",
+                "reference_code_or_standard": [
+                    "IS: 9103"
+                ],
+                "reference_page_number": 102
+            }
+        ],
+        "specific_material_type": [
+            "Use of chemical admixtures shall be permitted in accordance with the provisions of IS 456 and IS 9103.",
+            "It is the producer's responsibility to establish compatibility and suitability of any admixture with other mix ingredients and determine the required dosage.",
+            "Admixtures should be stored properly to prevent degradation and used within the supplier's recommended timeframe.",
+            "Containers of admixtures shall be clearly marked with their content.",
+            "When offering or delivering a mix containing an admixture, it should be indicated, and the admixture should be identified generically on the delivery ticket.",
+            "The amount of admixture added to the mix shall be recorded in the production record.",
+            "Certificate confirming that the admixture conforms to specifications of IS 9103 or to ASTM-C260, ASTM \u2013 C10, ASTM \u2013 C 595 or to ASTM- C 618"
+        ],
+        "other_relavent_info": [
+            "Where more than one admixture is used, confirmation of their compatibility.",
+            "The chloride content of the admixture expressed as a percentage of chloride ion by mass of admixture.",
+            "All testing procedure and computation of test results shall conform to IS 3025.",
+            "Certificate confirming that the use of a particular brand of admixture shall not be harmful to concrete in any way.",
+            "Certificate confirming the exact dosage of admixture of a particular brand.",
+            "Certificate stating the specific purpose for which the admixture is to be used."
+        ],
+        "Sl.No.": 6
+    },
+    {
+        "material": "Mix Design",
+        "tests": [
+            {
+                "test_name": "Mix design tests",
+                "specific_material_type": "Concrete mix proportions",
+                "reference_code_or_standard": [
+                    "ACI 211.1-77"
+                ],
+                "reference_page_number": 73
+            },
+            {
+                "test_name": "Concrete properties evaluation",
+                "specific_material_type": "Admixture performance evaluation",
+                "reference_code_or_standard": [
+                    "IS:9103"
+                ],
+                "reference_page_number": 73
+            },
+            {
+                "test_name": "Standard deviation calculation",
+                "specific_material_type": "Test results on the same mix design",
+                "reference_code_or_standard": [
+                    "IS 456"
+                ],
+                "reference_page_number": 73
+            }
+        ],
+        "specific_material_type": [
+            "Control of purchased material quality",
+            "Control of materials storage",
+            "Mix design and mix design modification",
+            "Concrete proportions for various grades of concrete should be designed separately",
+            "Self-compacting design mix concrete of minimum grade M50/M60, using admixture Retarder/Plasticizer and micro silica as per design mix",
+            "Water, cement, fine and coarse aggregate shall be as specified under respective clauses of chapter 03 of mortars, chapter 04 of concrete work and chapter 20 of Pile Work as applicable",
+            "The concrete mix design shall be done as \u201cDesign Mix Concrete\u201d as prescribed in clause- 9 of IS 456",
+            "Concrete shall be manufactured in accordance with clause 10 of above mentioned IS 456 covering quality assurance measures both technical and organizational, which shall also necessarily require a qualified Concrete Technologist to be available during"
+        ],
+        "other_relavent_info": [
+            "Mix design shall be tried, and the mix proportions checked based on tests conducted at a recognized laboratory approved by the Engineer-in-Charge.",
+            "Before using an admixture, its performance shall be evaluated by comparing concrete properties with and without the admixture.",
+            "IS 456-2000 Code of Practice for Plain and Reinforced Concrete (as amended up to date) shall be followed in regard to Concrete Mix Proportion and its production."
+        ],
+        "Sl.No.": 7
+    },
+    {
+        "material": "Batching",
+        "tests": [
+            {
+                "test_name": "Concrete production and supply",
+                "specific_material_type": "Ready-mixed concrete",
+                "reference_code_or_standard": [
+                    "IS 4926"
+                ],
+                "reference_page_number": 6
+            },
+            {
+                "test_name": "Mix design",
+                "specific_material_type": "Plant mix design",
+                "reference_code_or_standard": [
+                    "IS 4926"
+                ],
+                "reference_page_number": 87
+            },
+            {
+                "test_name": "Compressive strength testing",
+                "specific_material_type": "Concrete",
+                "reference_code_or_standard": [
+                    "IS 14858"
+                ],
+                "reference_page_number": 94
+            },
+            {
+                "test_name": "Random tests of mixes",
+                "specific_material_type": "Concrete mixes",
+                "reference_code_or_standard": [
+                    "IS 456"
+                ],
+                "reference_page_number": 94
+            }
+        ],
+        "specific_material_type": [
+            "Cement",
+            "Mineral admixtures",
+            "Aggregates",
+            "Water",
+            "Chemical admixture",
+            "Aggregates of sizes 10 mm, 20 mm and 40 mm",
+            "Fine aggregates",
+            "Liquid admixtures"
+        ],
+        "other_relavent_info": [
+            "To avoid confusion and error in batching, consideration should be given to using the smallest practical number of different concrete mixed on any site or in any one plant.",
+            "In batching concrete, the quantity of both cement and aggregate shall be determined by mass; admixture, if solid, by mass: liquid admixture may however be measured in volume or mass: water shall be weighed or measured by volume in a calibrated tank (see also IS 4925).",
+            "Hoppers for weighing cement, mineral admixtures, aggregates and water and chemical admixture (if measured by mass) shall consist of suitable container freely.",
+            "Separate storage for each nominal size and type of aggregate and the method of loading of storage bins shall be such as to prevent intermingling of different sizes and types.",
+            "Fine aggregates shall be stacked in a place where loss due to the effect of wind is minimum (see also IS 4082 and IS 456).",
+            "An adequate water supply shall be provided, and when stored on the plant, such storage facilities shall be designed to minimize the risk of contamination.",
+            "Tanks or drums containing liquid admixtures shall be clearly labeled for identification purposes and stored in such a way as to avoid damage, contamination, or the effects of prolonged exposure to sunlight (if applicable).",
+            "Agitation shall be provided for liquid admixtures that are not stable solutions."
+        ],
+        "Sl.No.": 8
+    },
+    {
+        "material": "Workability of Concrete",
+        "tests": [
+            {
+                "test_name": "Slump Test",
+                "specific_material_type": "N/A",
+                "reference_code_or_standard": [
+                    "IS 1199"
+                ],
+                "reference_page_number": 89
+            },
+            {
+                "test_name": "Compacting Factor Test",
+                "specific_material_type": "concrete whose ordered slump is 50 mm or less",
+                "reference_code_or_standard": [
+                    "IS 1199"
+                ],
+                "reference_page_number": 89
+            },
+            {
+                "test_name": "Flow Table Test",
+                "specific_material_type": "concrete for very high workability",
+                "reference_code_or_standard": [
+                    "IS 9103"
+                ],
+                "reference_page_number": 89
+            }
+        ],
+        "specific_material_type": [
+            "Blinding concrete: shallow sections: Pavements using pavers",
+            "Mass concrete: Lightly reinforced sections in slabs, beams, wall, columns, : floors",
+            "Hand placed pavements: canal lining; Strip footing",
+            "Heavily reinforced sections in slabs, beams, walls, columns: Slip form work: Pumped concrete",
+            "Trench fill",
+            "Tremie concrete"
+        ],
+        "other_relavent_info": [
+            "The concrete mix proportion chosen should be such that the concrete is of adequate workability for the placing conditions of the concrete and can properly be compacted with the means available.",
+            "For most of the placing conditions, internal vibrat ors (needle vibrators) are suitable.",
+            "For tremie concrete, vibrators are not required to be used (see also 4.2.7)",
+            "Slump \u00b1 25 mm or 1/3 of the specified value, whichever is less.",
+            "Any slump specimen which collapses or shears off laterally give incorrect result.",
+            "The slump test shall not be used for very dry mixes as the results obtained are not accurate",
+            "Compacting factor check shall be done in field only at placement location, and shall also be conducted at central batch plant if concrete is totally mixed in plant.",
+            "Only one compaction factor test shall be conducted for every 20 cum of concrete or part thereof placed at location for each type of concrete.",
+            "Acceptance criteria for spread (flow) are to be established between the supplier and the purchaser."
+        ],
+        "Sl.No.": 9
+    }
+]
