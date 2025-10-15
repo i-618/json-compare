@@ -1,0 +1,744 @@
+[
+    {
+        "Sl.No.": 1,
+        "material": "Cement",
+        "tests": [
+            {
+                "specific_material_type": "33 Grade Ordinary Portland Cement",
+                "test_name": "confirming to IS 269",
+                "reference_code_or_standard": "IS 269",
+                "limit": "as per IS 269",
+                "reference_page_number.": "19"
+            },
+            {
+                "specific_material_type": "43 Grade Ordinary Portland Cement",
+                "test_name": "confirming to IS 8112",
+                "reference_code_or_standard": "IS 8112",
+                "limit": "as per IS 8112",
+                "reference_page_number.": "19"
+            },
+            {
+                "specific_material_type": "53 Grade Ordinary Portand Cement",
+                "test_name": "confirming to IS 12269",
+                "reference_code_or_standard": "IS 12269",
+                "limit": "as per IS 12269",
+                "reference_page_number.": "19"
+            },
+            {
+                "specific_material_type": "Portland slag cement",
+                "test_name": "confirming to IS 455",
+                "reference_code_or_standard": "IS 455",
+                "limit": "as per IS 455",
+                "reference_page_number.": "19"
+            },
+            {
+                "specific_material_type": "Portland Pozzolona Cement (flyash based)",
+                "test_name": "confirming to IS 1489 (Part I)",
+                "reference_code_or_standard": "IS 1489 (Part I)",
+                "limit": "as per IS 489 (Part I)",
+                "reference_page_number.": "19"
+            },
+            {
+                "specific_material_type": "Portland Pozzolona Cement (calcined clay based)",
+                "test_name": "confirming to IS 1489 (Part II)",
+                "reference_code_or_standard": "IS 1489 (Part II)",
+                "limit": "as per IS 1489 (Part II)",
+                "reference_page_number.": "20"
+            },
+            {
+                "specific_material_type": "Sulphate Resisting Cement",
+                "test_name": "confirming to IS 12330",
+                "reference_code_or_standard": "IS 12330",
+                "limit": "as per IS 12330",
+                "reference_page_number.": "20"
+            },
+            {
+                "specific_material_type": "High Alumina Cement",
+                "test_name": "confirming to IS 6452",
+                "reference_code_or_standard": "IS 6452",
+                "limit": "as per IS 6452",
+                "reference_page_number.": "20"
+            },
+            {
+                "specific_material_type": "Low Heat Cement",
+                "test_name": "confirming to IS 12600",
+                "reference_code_or_standard": "IS 12600",
+                "limit": "as per IS 12600",
+                "reference_page_number.": "20"
+            },
+            {
+                "specific_material_type": "Super Sulphate Cement",
+                "test_name": "confirming to IS 6909",
+                "reference_code_or_standard": "IS 6909",
+                "limit": "as per IS 6909",
+                "reference_page_number.": "20"
+            },
+            {
+                "specific_material_type": "Rapid Hardening Cement",
+                "test_name": "confirming to IS 8041",
+                "reference_code_or_standard": "IS 8041",
+                "limit": "as per IS 8041",
+                "reference_page_number.": "20"
+            },
+            {
+                "specific_material_type": "Blended Cement for finishing work",
+                "test_name": "combination of Portland cement with mineral admixtures confirming to relevant IS standards",
+                "reference_code_or_standard": "relevant IS codes",
+                "limit": "not mentioned",
+                "reference_page_number.": "20"
+            },
+            {
+                "specific_material_type": "cement",
+                "test_name": "initial setting time test",
+                "reference_code_or_standard": "IS 4031",
+                "limit": "not less than 30 minutes",
+                "reference_page_number.": "26"
+            },
+            {
+                "specific_material_type": "cement",
+                "test_name": [
+                    "fineness test",
+                    "test for normal consistency",
+                    "test for setting time",
+                    "test for soundness",
+                    "test for compressive strength",
+                    "test for heat of hydration"
+                ],
+                "reference_code_or_standard": "IS 269",
+                "limit": "as per IS 269",
+                "reference_page_number.": "42"
+            },
+            {
+                "specific_material_type": "cement",
+                "test_name": "check for alkali content",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number.": "45"
+            },
+            {
+                "specific_material_type": "Low alkali ordinary portland cement",
+                "test_name": "test for alkali content",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not more than 0.6%",
+                "reference_page_number.": "45"
+            },
+            {
+                "specific_material_type": "White cement",
+                "test_name": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number.": "56"
+            }
+        ]
+    },
+    {
+        "Sl.No.": 2,
+        "material": "Admixtures",
+        "tests": [
+            {
+                "specific_material_type": "Mineral Admixtures",
+                "test_name": "confirming to IS relevant IS standards",
+                "reference_code_or_standard": "relevant IS codes",
+                "limit": "as per relevant IS codes",
+                "reference_page_number": "20"
+            },
+            {
+                "specific_material_type": "Fly ash (Pulverized fuel ash",
+                "test_name": "confirming to Grade I of IS 3812",
+                "reference_code_or_standard": "IS 3812",
+                "limit": "as per IS 3812",
+                "reference_page_number": "20"
+            },
+            {
+                "specific_material_type": "Silica fume",
+                "test_name": "confirming to standard approved by the deciding authority",
+                "reference_code_or_standard": "as approved by the deciding authority",
+                "limit": "as per the approved IS standard",
+                "reference_page_number": "20"
+            },
+            {
+                "specific_material_type": "Rice husk ash",
+                "test_name": "check for water demand",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "21"
+            },
+            {
+                "specific_material_type": "Rice husk ash",
+                "test_name": "check for drying shrinkage",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "21"
+            },
+            {
+                "specific_material_type": "Metakoline",
+                "test_name": "fineness test",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "between 700 to 900 m2/kg",
+                "reference_page_number": "21"
+            },
+            {
+                "specific_material_type": "Ground Granulated Blast Furnance Slag or GGBS",
+                "test_name": "confirmin to IS 12089",
+                "reference_code_or_standard": "IS 12089",
+                "limit": "as per IS 12089",
+                "reference_page_number": "21"
+            },
+            {
+                "specific_material_type": "admixtures",
+                "test_name": [
+                    "comfirming to IS 9103",
+                    "check for chloride content",
+                    "check for relative density"
+                ],
+                "reference_code_or_standard": [
+                    "IS 9103",
+                    "not mentioned",
+                    "not mentioned"
+                ],
+                "limit": [
+                    "as per IS 9103",
+                    "not mentioned",
+                    "not mentioned"
+                ],
+                "reference_page_number": [
+                    "40",
+                    "40",
+                    "40"
+                ]
+            },
+            {
+                "specific_material_type": "Fly ash (Pulverized fuel ash",
+                "test_name": "confirming to Grade I of IS 3812",
+                "reference_code_or_standard": "IS 3812",
+                "limit": "as per IS 3812",
+                "reference_page_number": "45"
+            },
+            {
+                "specific_material_type": "Ground Granulated Blast Furnance Slag or GGBS",
+                "test_name": "confirming to IS 12089",
+                "reference_code_or_standard": "IS 12089",
+                "limit": "as per IS 12089",
+                "reference_page_number": "45"
+            },
+            {
+                "specific_material_type": "Calcium chloride",
+                "test_name": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "content should not exceed 1.5% of the weight of the cement",
+                "reference_page_number": "41"
+            },
+            {
+                "specific_material_type": "Air entraining agents",
+                "test_name": "confirming to ASTM standard 6.260",
+                "reference_code_or_standard": "ASTM standard 6.260 & IS 1199",
+                "limit": "when used the recommended air content in the concrete is 4%",
+                "reference_page_number": "41"
+            },
+            {
+                "specific_material_type": "Retarding admixtures",
+                "test_name": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "41"
+            },
+            {
+                "specific_material_type": "Water reducing admixtures",
+                "test_name": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "41"
+            },
+            {
+                "specific_material_type": "Water proofing agents",
+                "test_name": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "41"
+            },
+            {
+                "specific_material_type": "other admixtures",
+                "test_name": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "41"
+            }
+        ]
+    },
+    {
+        "Sl.No.": 3,
+        "material": "Coarse Aggregates",
+        "tests": [
+            {
+                "specific_material_type": "Coarse aggregate (retained on 4.75 mm IS sieve)",
+                "test": [
+                    "confirming to IS 383",
+                    "Gradation test",
+                    "Sedimentation test",
+                    "Water absorption test",
+                    "Check for deletorious substances",
+                    "Check for water content",
+                    "sieve analysis",
+                    "specific gravity and unit weight of dry, loose and rodded aggregate",
+                    "soundness and alkali reactivity",
+                    "petrographic examination",
+                    "check for deletorious materials and organic impurities",
+                    "test for aggregate crushing value"
+                ],
+                "reference_code_or_standard": [
+                    "IS 383",
+                    "not mentioned",
+                    "IS 2386",
+                    "IS 2386",
+                    "not mentioned",
+                    "IS 2386 (Part III)",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned"
+                ],
+                "limit": [
+                    "as per IS 383",
+                    "as per table in reference_page_number. 24",
+                    "not exceed 1%",
+                    "not more than 10% of the oven-dried weight",
+                    "as per the table in reference_page_number. 25",
+                    "as per IS 2386 (Part III)",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned"
+                ],
+                "reference_page_number": [
+                    "22",
+                    "23",
+                    "25",
+                    "33",
+                    "42",
+                    "42",
+                    "42",
+                    "42",
+                    "42",
+                    "42"
+                ]
+            },
+            {
+                "specific_material_type": "Aggregates",
+                "test": [
+                    "Specific gravity",
+                    "check for nominal maximum size",
+                    "check for moisture content",
+                    "Check for surface water",
+                    "check for alkali reactive constituent"
+                ],
+                "reference_code_or_standard": [
+                    "not mentioned",
+                    "not mentioned",
+                    "IS 2386 (Part III)",
+                    "not mentioned",
+                    "not mentioned"
+                ],
+                "limit": [
+                    "not less than 2.6",
+                    " 5 mm less than the minimum cover to the reinforcement whichever is smaller",
+                    "as per IS 2386 (Part III) or as per the table in reference_page_number. 36",
+                    "as per the table given in reference_page_number. 36",
+                    "not mentioned"
+                ],
+                "reference_page_number": [
+                    "23",
+                    "25",
+                    "36",
+                    "36",
+                    "45"
+                ]
+            },
+            {
+                "specific_material_type": "Natural or Crushed stone and gravel",
+                "test": [
+                    "flakiness index",
+                    "Elongation index",
+                    "check for organic matter",
+                    "check for coal residue, clay lumps, clinkers, sag, alkali, mica, other deletorious materials"
+                ],
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "24"
+            },
+            {
+                "specific_material_type": "Crushed rock",
+                "test": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "24"
+            },
+            {
+                "specific_material_type": "Plums",
+                "test": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "25"
+            }
+        ]
+    },
+    {
+        "Sl.No.": 4,
+        "material": "Fine aggregates",
+        "tests": [
+            {
+                "specific_material_type": "Fine aggregate",
+                "test": "confirming to IS 383",
+                "reference_code_or_standard": "IS 383",
+                "limit": "as per IS 383",
+                "reference_page_number": "23"
+            },
+            {
+                "specific_material_type": "Machine made sand",
+                "test": "test for grading and finer particles",
+                "reference_code_or_standard": "IS 383",
+                "limit": "as per IS 383",
+                "reference_page_number": "23"
+            },
+            {
+                "specific_material_type": "Sand",
+                "test": [
+                    "check for silt content",
+                    "Check for Foreign materials",
+                    "Gradation test",
+                    "Fineness modulus",
+                    "sieve test",
+                    "test for organic impurities",
+                    "decantation test for determining clay and silt content",
+                    "specific gravity test",
+                    "test for unit weight and bulkage factor",
+                    "test for sieve analysis and fineness modulus"
+                ],
+                "reference_code_or_standard": "not mentioned",
+                "limit": [
+                    "not more than 3%",
+                    "as per table in reference_page_number. 23",
+                    "as per table in reference_page_number. 23",
+                    "not less than 2.2 or not more than 3.2",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned"
+                ],
+                "reference_page_number": [
+                    "23",
+                    "23",
+                    "23",
+                    "24",
+                    "42",
+                    "42",
+                    "42",
+                    "42",
+                    "42",
+                    "42"
+                ]
+            },
+            {
+                "specific_material_type": "Sand for grout preparation",
+                "test": "gradation test",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "as mentioned in the table in reference_page_number. 63",
+                "reference_page_number": "63"
+            }
+        ]
+    },
+    {
+        "Sl.No.": 5,
+        "material": "Water",
+        "tests": [
+            "confirming to IS 456 - 2000",
+            "Check for acidity",
+            "Check for alkalinity",
+            "check for organic solids",
+            "check for inorganic solids",
+            "check for sulphates",
+            "check for chlorides",
+            "check for suspended matter",
+            "check for pH"
+        ],
+        "reference_code_or_standard": [
+            "IS 456 - 2000",
+            "IS 3025 (Part 22)",
+            "IS 3025 (Part 23",
+            "IS 3025 (Part 18)",
+            "IS 3025 (Part 18)",
+            "IS 3025 (Part 24)",
+            "IS 3025 (Part 32)",
+            "IS 3025 (Part 17)",
+            "not mentioned"
+        ],
+        "limit": [
+            "as per IS 456 - 2000",
+            "To neutralize 100 ml sample of water, using phenolphthalein as an indicator, it should not require more than 5 ml. of 0.02 normal NaOH",
+            " To neutralize 100 ml sample of water, using mixed indicator, it should not require more than 25 ml. of 0.02 normal H2SO4",
+            "maximum 200 mg/l",
+            "maximum 3000 mg/l",
+            "maximum 400 mg/l",
+            "maximum 2000 mg/l for concrete not containing embedded steel and 500 mg/l for reinforced cement concrete work",
+            "maximum 2000 mg/l",
+            "not less than 6"
+        ],
+        "reference_page_number": "26"
+    },
+    {
+        "Sl.No.": 6,
+        "material": "Concrete",
+        "tests": [
+            {
+                "specific_material_type": "Reinforced Concrete",
+                "test": [
+                    "confirming to IS 456 - 2000",
+                    "Minimum cement content for varied exposure conditions",
+                    "Maximum Water Cement Ratio for varied exposure conditions",
+                    "Minimum Grade of concrete for varied exposure conditions",
+                    "Test for Nominal cover for varied exposure conditions",
+                    "Slump test",
+                    "Compacting factor test",
+                    "flow test",
+                    "check for chloride content",
+                    "check for sulphate content"
+                ],
+                "reference_code_or_standard": [
+                    "IS 456 - 2000",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "IS 1199",
+                    "IS 1199",
+                    "IS 9103",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "IS 6909"
+                ],
+                "limit": [
+                    "as per IS 456 - 2000",
+                    "as mentioned in the table in reference_page_number. 28",
+                    "as mentioned in the table in reference_page_number. 28",
+                    "as mentioned in the table in reference_page_number. 28",
+                    "as mentioned in the table in reference_page_number. 29",
+                    "as per IS 1199, as per the table in reference_page_number.33",
+                    "as per IS 1199, 0.75 to 0.80 in case of very low workability",
+                    "as per IS 9103 in case of very high workability",
+                    "as per the table mentioned in the reference_page_number. 46",
+                    "SO3 content should not exceed 4% by mass of cement"
+                ],
+                "reference_page_number": [
+                    "26",
+                    "28",
+                    "28",
+                    "28",
+                    "29",
+                    "33",
+                    "33",
+                    "34",
+                    "46",
+                    "46"
+                ]
+            },
+            {
+                "specific_material_type": "Concrete Mix",
+                "test": "proportioning according to ACI - 613 or Design of concrete mixes - Road Research Note No.4",
+                "reference_code_or_standard": "ACI - 613 or design of concrete mixes - road research note no.4",
+                "limit": "as mentioned in thes pecified codes",
+                "reference_page_number": "26"
+            },
+            {
+                "specific_material_type": "Concrete",
+                "test": [
+                    "check for standard deviation",
+                    "check for assumed standard deviation",
+                    "check for appropriate proportions",
+                    "Test for bulking",
+                    "Test for Modulus of rupture",
+                    "Compressive strength test",
+                    "testing cubes using accelerated methods",
+                    "Slump test",
+                    "Test for charateristic compressive strength",
+                    "Flexural strength",
+                    "core test",
+                    "ultrasonic test",
+                    "load test",
+                    "probe penetration",
+                    "pull out and maturity"
+                ],
+                "reference_code_or_standard": [
+                    "not mentioned",
+                    "not mentioned",
+                    "IS 2722",
+                    "IS 2386 (Part III)",
+                    "not mentioned",
+                    "not mentioned",
+                    "IS 9013 - 1978 & IS 516",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned, IS 516",
+                    "not mentioned, IS 13311 (Part 2)",
+                    "not mentioned",
+                    "not mentioned",
+                    "not mentioned"
+                ],
+                "limit": [
+                    "number of samples shall not be less than 30",
+                    "as mentioned in the table in reference_page_number. 31",
+                    "as per IS 2722",
+                    "as per IS 2386 (Part III)",
+                    "as per the table in reference_page_number. 38",
+                    "as per the table in reference_page_number. 38",
+                    "as per IS 9013 - 1978 & IS 516",
+                    "not mentioned",
+                    "as mentioned in the table in reference_page_number. 39",
+                    " mean strength determined from any group of four consecutive test results exceeds the specified characteristic strength by at least 0.3 N/mm2 and strength determined from any test result is not less than the specified characteristic strength less 0.3N/mm2 ",
+                    "not mentioned, as per IS 516, average equivalent cube strength of the cores is equal to at least 85% of the cube strength of the grade of concrete specified for the corresponding age and no individual core has a strength less than 75%",
+                    "not mentioned, as per IS 13311 (Part 2)",
+                    "not mentioned,  equal to full dead load of the structure plus 1.25 times the imposed load for a period of 24 hours, for which the maximum deflection should be less than 40L2/D, where L is the effective span in M. and D the overall depth of the section in mm",
+                    "not mentioned",
+                    "not mentioned"
+                ],
+                "reference_page_number": [
+                    "30",
+                    "31",
+                    "32",
+                    "36",
+                    "37",
+                    "37",
+                    "38",
+                    "39",
+                    "39",
+                    "40",
+                    "41",
+                    "42",
+                    "41",
+                    "42",
+                    "43",
+                    "41",
+                    "43",
+                    "43"
+                ]
+            },
+            {
+                "specific_material_type": "Ready mixed concrete",
+                "test": "confirming to IS 4926",
+                "reference_code_or_standard": "IS 4926",
+                "limit": "as per IS 4926",
+                "reference_page_number": "35"
+            },
+            {
+                "specific_material_type": "integral cement concrete for finishing",
+                "test": "not mentioned",
+                "reference_code_or_standard": "IS 2571",
+                "limit": "as per IS 2571",
+                "reference_page_number": "57"
+            },
+            {
+                "specific_material_type": "lean concrete",
+                "test": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "58"
+            },
+            {
+                "specific_material_type": "concrete to be placed in hot weather",
+                "test": "confirming to is 456",
+                "reference_code_or_standard": "IS 456",
+                "limit": "temperature of the freshly placed concrete shall not be permitted to exceed 30oC",
+                "reference_page_number": "60"
+            },
+            {
+                "specific_material_type": "Precast concrete & Precast reinforced concrete",
+                "test": [
+                    "confirming to IS 456",
+                    "check for minimum cover"
+                ],
+                "reference_code_or_standard": "IS 456",
+                "limit": [
+                    "not mentioned",
+                    " minimum cover of 12 mm or twice the diameter of the main bar, whichever is more, unless otherwise directed in respect  of all items except fencing posts or electric posts where the minimum cover shall be 25 mm"
+                ],
+                "reference_page_number": "61"
+            },
+            {
+                "specific_material_type": "Precast cement concrete jali",
+                "test": "not mentioned",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "proportions as mentioned in reference_page_number. 62",
+                "reference_page_number": "62"
+            },
+            {
+                "specific_material_type": "cement grout",
+                "test": "confirmance to the table mentioned in reference_page_number. 63",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "as mentioned in the table in reference_page_number. 63",
+                "reference_page_number": "63"
+            },
+            {
+                "specific_material_type": "Plain cement concrete",
+                "test": "slump cone test",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "as required for the type of work as mentioned in the table in reference_page_number. 65",
+                "reference_page_number": "65"
+            }
+        ]
+    },
+    {
+        "Sl.No.": 7,
+        "material": "curing compounds",
+        "tests": [
+            {
+                "specific_material_type": "confirming to US Bureau of reclamation specification",
+                "reference_code_or_standard": "US Bureau of reclamation specification",
+                "limit": "not mentioned",
+                "reference_page_number": "54"
+            },
+            {
+                "specific_material_type": "poly ethylene sheeting",
+                "reference_code_or_standard": "not mentioned",
+                "limit": "not mentioned",
+                "reference_page_number": "54"
+            }
+        ]
+    },
+    {
+        "Sl.No.": 8,
+        "material": "Epoxy",
+        "tests": "as suggested by the manufacturer",
+        "reference_code_or_standard": "not mentioned",
+        "limit": " as suggested by the manufacturer",
+        "reference_page_number": "55"
+    },
+    {
+        "Sl.No.": 9,
+        "material": [
+            "terrazo",
+            "quarry tile"
+        ],
+        "tests": "not mentioned",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "surface irregularities shall not exceed 6 mm",
+        "reference_page_number": [
+            "57",
+            "67"
+        ]
+    },
+    {
+        "Sl.No.": 10,
+        "material": "reflective paint",
+        "tests": "not mentioned",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "not mentioned",
+        "reference_page_number": "60"
+    }
+]
