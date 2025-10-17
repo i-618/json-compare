@@ -1,0 +1,471 @@
+[
+  {
+    "material_name": "Cement",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "33 Grade Ordinary Portland cement",
+        "test_name": "IS 269",
+        "reference_code_or_standard": "IS 269",
+        "limit": "As per standard",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "43 Grade ordinary Portland cement",
+        "test_name": "IS 8112",
+        "reference_code_or_standard": "IS 8112",
+        "limit": "As per standard",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "53 Grade ordinary Portland Cement",
+        "test_name": "IS 12269",
+        "reference_code_or_standard": "IS 12269",
+        "limit": "As per standard",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "Portland slag cement",
+        "test_name": "IS 455",
+        "reference_code_or_standard": "IS 455",
+        "limit": "As per standard",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "Portland pozzolana cement (fly ash based)",
+        "test_name": "IS 1489 (Part I)",
+        "reference_code_or_standard": "IS 1489 (Part I)",
+        "limit": "As per standard",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "Portland pozzolona cement (calcined clay based)",
+        "test_name": "IS 1489 (Part 2)",
+        "reference_code_or_standard": "IS 1489 (Part 2)",
+        "limit": "As per standard",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Sulphate resisting Portland cement",
+        "test_name": "IS 12330",
+        "reference_code_or_standard": "IS 12330",
+        "limit": "As per standard",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "High Alumina cement",
+        "test_name": "IS 6452",
+        "reference_code_or_standard": "IS 6452",
+        "limit": "As per standard",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Low heat cement",
+        "test_name": "IS 12600",
+        "reference_code_or_standard": "IS 12600",
+        "limit": "As per standard",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Super sulphate cement",
+        "test_name": "IS 6909",
+        "reference_code_or_standard": "IS 6909",
+        "limit": "As per standard",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Rapid Hardening cement",
+        "test_name": "IS 8041",
+        "reference_code_or_standard": "IS 8041",
+        "limit": "As per standard",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "All cement types",
+        "test_name": "Fineness test",
+        "reference_code_or_standard": "IS 269",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All cement types",
+        "test_name": "Test for normal consistency",
+        "reference_code_or_standard": "IS 269",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All cement types",
+        "test_name": "Test for setting time",
+        "reference_code_or_standard": "IS 269",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All cement types",
+        "test_name": "Test for soundness",
+        "reference_code_or_standard": "IS 269",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All cement types",
+        "test_name": "Test for compressive strength",
+        "reference_code_or_standard": "IS 269",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All cement types",
+        "test_name": "Test for heat of hydration",
+        "reference_code_or_standard": "IS 269",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All cement types",
+        "test_name": "Initial setting time test",
+        "reference_code_or_standard": "IS 4031 (Part 5)",
+        "limit": "Not less than 30 minutes and shall not differ by more than (+/-) 30 minutes",
+        "reference_page_number": 25
+      }
+    ]
+  },
+  {
+    "material_name": "Fine Aggregate",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "River natural sand",
+        "test_name": "IS 383",
+        "reference_code_or_standard": "IS 383",
+        "limit": "As per standard",
+        "reference_page_number": 23
+      },
+      {
+        "specific_material_type": "Crushed sand",
+        "test_name": "IS 383",
+        "reference_code_or_standard": "IS 383",
+        "limit": "As per standard",
+        "reference_page_number": 23
+      },
+      {
+        "specific_material_type": "Machine made sand",
+        "test_name": "IS 383",
+        "reference_code_or_standard": "IS 383",
+        "limit": "Grading & finer particle limits to conform to IS 383",
+        "reference_page_number": 23
+      },
+      {
+        "specific_material_type": "All fine aggregates",
+        "test_name": "Sieve test",
+        "reference_code_or_standard": "IS 383",
+        "limit": "Within grading zones I-IV limits",
+        "reference_page_number": 23
+      },
+      {
+        "specific_material_type": "All fine aggregates",
+        "test_name": "Test for organic impurities",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All fine aggregates",
+        "test_name": "Decantation test for determining clay and silt content",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Silt content more than 3% not permitted",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All fine aggregates",
+        "test_name": "Specific gravity test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All fine aggregates",
+        "test_name": "Test for unit weight and bulkage factor",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All fine aggregates",
+        "test_name": "Test for sieve analysis and fineness modulus",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Fineness modulus not less than 2.2 or more than 3.2",
+        "reference_page_number": 41
+      }
+    ]
+  },
+  {
+    "material_name": "Coarse Aggregate",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "Natural stone",
+        "test_name": "IS 383",
+        "reference_code_or_standard": "IS 383",
+        "limit": "As per standard",
+        "reference_page_number": 22
+      },
+      {
+        "specific_material_type": "Crushed stone",
+        "test_name": "IS 383",
+        "reference_code_or_standard": "IS 383",
+        "limit": "As per standard",
+        "reference_page_number": 22
+      },
+      {
+        "specific_material_type": "Gravel",
+        "test_name": "IS 383",
+        "reference_code_or_standard": "IS 383",
+        "limit": "As per standard",
+        "reference_page_number": 22
+      },
+      {
+        "specific_material_type": "All coarse aggregates",
+        "test_name": "Sieve analysis",
+        "reference_code_or_standard": "IS 383",
+        "limit": "Within specified grading limits",
+        "reference_page_number": 24
+      },
+      {
+        "specific_material_type": "All coarse aggregates",
+        "test_name": "Specific gravity and unit weight test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Specific gravity below 2.6 not to be used without permission",
+        "reference_page_number": 22
+      },
+      {
+        "specific_material_type": "All coarse aggregates",
+        "test_name": "Soundness and alkali aggregate reactivity",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All coarse aggregates",
+        "test_name": "Petrographic examination",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All coarse aggregates",
+        "test_name": "Test for deleterious materials and organic impurities",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Within specified percentage limits",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All coarse aggregates",
+        "test_name": "Test for aggregate crushing value",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "not mentioned",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "All coarse aggregates",
+        "test_name": "Sedimentation test",
+        "reference_code_or_standard": "IS 2386",
+        "limit": "Fine particles not to exceed 1%",
+        "reference_page_number": 24
+      }
+    ]
+  },
+  {
+    "material_name": "Water",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "Potable water",
+        "test_name": "Compressive strength test",
+        "reference_code_or_standard": "IS 456-2000",
+        "limit": "28 days compressive strength not less than 90% of strength with distilled water",
+        "reference_page_number": 25
+      },
+      {
+        "specific_material_type": "Clean water",
+        "test_name": "Compressive strength test",
+        "reference_code_or_standard": "IS 456-2000",
+        "limit": "28 days compressive strength not less than 90% of strength with distilled water",
+        "reference_page_number": 25
+      },
+      {
+        "specific_material_type": "All water types",
+        "test_name": "Initial setting time test",
+        "reference_code_or_standard": "IS 456-2000",
+        "limit": "Not less than 30 minutes and shall not differ by more than (+/-) 30 minutes",
+        "reference_page_number": 25
+      },
+      {
+        "specific_material_type": "All water types",
+        "test_name": "Acidity test",
+        "reference_code_or_standard": "IS 3025 (Part 22)",
+        "limit": "Not more than 5 ml of 0.02 normal NaOH to neutralize 100 ml sample",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "All water types",
+        "test_name": "Alkalinity test",
+        "reference_code_or_standard": "IS 3025 (Part 23)",
+        "limit": "Not more than 25 ml of 0.02 normal H2SO4 to neutralize 100 ml sample",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "All water types",
+        "test_name": "Organic solids test",
+        "reference_code_or_standard": "IS 3025 (Part 18)",
+        "limit": "200 mg/l maximum",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "All water types",
+        "test_name": "Inorganic solids test",
+        "reference_code_or_standard": "IS 3025 (Part 18)",
+        "limit": "3000 mg/l maximum",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "All water types",
+        "test_name": "Sulphates test",
+        "reference_code_or_standard": "IS 3025 (Part 24)",
+        "limit": "400 mg/l maximum",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "All water types",
+        "test_name": "Chlorides test",
+        "reference_code_or_standard": "IS 3025 (Part 32)",
+        "limit": "2000 mg/l for concrete without steel, 500 mg/l for RCC",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "All water types",
+        "test_name": "Suspended matter test",
+        "reference_code_or_standard": "IS 3025 (Part 17)",
+        "limit": "2000 mg/l maximum",
+        "reference_page_number": 26
+      }
+    ]
+  },
+  {
+    "material_name": "Concrete",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "All concrete types",
+        "test_name": "Slump test",
+        "reference_code_or_standard": "IS 1199",
+        "limit": "As per workability requirements for different construction types",
+        "reference_page_number": 33
+      },
+      {
+        "specific_material_type": "Very low workability concrete",
+        "test_name": "Compacting factor test",
+        "reference_code_or_standard": "IS 1199",
+        "limit": "0.75 to 0.80",
+        "reference_page_number": 33
+      },
+      {
+        "specific_material_type": "All concrete types",
+        "test_name": "Compressive strength test",
+        "reference_code_or_standard": "IS 516",
+        "limit": "As per grade requirements",
+        "reference_page_number": 37
+      },
+      {
+        "specific_material_type": "All concrete types",
+        "test_name": "Cube test",
+        "reference_code_or_standard": "IS 516",
+        "limit": "28 days characteristic strength as specified",
+        "reference_page_number": 37
+      },
+      {
+        "specific_material_type": "Optional test concrete",
+        "test_name": "Modulus of rupture test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "As per optional test requirements table",
+        "reference_page_number": 37
+      },
+      {
+        "specific_material_type": "Structural concrete",
+        "test_name": "Core test",
+        "reference_code_or_standard": "IS 516",
+        "limit": "Average equivalent cube strength at least 85% of specified, no individual core less than 75%",
+        "reference_page_number": 42
+      },
+      {
+        "specific_material_type": "Structural concrete",
+        "test_name": "Ultrasonic pulse velocity test",
+        "reference_code_or_standard": "IS 13311 (Part 1)",
+        "limit": "not mentioned",
+        "reference_page_number": 43
+      },
+      {
+        "specific_material_type": "Structural concrete",
+        "test_name": "Rebound hammer test",
+        "reference_code_or_standard": "IS 13311 (Part 2)",
+        "limit": "not mentioned",
+        "reference_page_number": 43
+      },
+      {
+        "specific_material_type": "Air entrained concrete",
+        "test_name": "Air content test",
+        "reference_code_or_standard": "IS 1199",
+        "limit": "4% (+/-) 1%",
+        "reference_page_number": 41
+      }
+    ]
+  },
+  {
+    "material_name": "Admixtures",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "All admixtures",
+        "test_name": "Chloride content test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Each batch tested before acceptance",
+        "reference_page_number": 40
+      },
+      {
+        "specific_material_type": "All admixtures",
+        "test_name": "Performance test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Workability, compressive strength and slump loss established during trial mixes",
+        "reference_page_number": 40
+      },
+      {
+        "specific_material_type": "Air Entraining Agents",
+        "test_name": "ASTM C260",
+        "reference_code_or_standard": "ASTM C260",
+        "limit": "As per standard",
+        "reference_page_number": 41
+      }
+    ]
+  },
+  {
+    "material_name": "Mineral Admixtures",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "Fly ash (pulverized fuel ash)",
+        "test_name": "IS 3812",
+        "reference_code_or_standard": "IS 3812",
+        "limit": "Grade 1",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Ground Granulated Blast Furnace Slag",
+        "test_name": "IS 12089",
+        "reference_code_or_standard": "IS 12089",
+        "limit": "As per standard",
+        "reference_page_number": 21
+      },
+      {
+        "specific_material_type": "All mineral admixtures",
+        "test_name": "Performance test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Satisfactory data on suitability required",
+        "reference_page_number": 20
+      }
+    ]
+  }
+]
