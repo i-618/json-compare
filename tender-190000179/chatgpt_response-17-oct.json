@@ -1,0 +1,218 @@
+[
+  {
+    "material_name": "Cement",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "33 Grade Ordinary Portland Cement",
+        "test_name": "IS 269",
+        "reference_code_or_standard": "IS 269",
+        "limit": "As per IS 269",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "43 Grade Ordinary Portland Cement",
+        "test_name": "IS 8112",
+        "reference_code_or_standard": "IS 8112",
+        "limit": "As per IS 8112",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "53 Grade Ordinary Portland Cement",
+        "test_name": "IS 12269",
+        "reference_code_or_standard": "IS 12269",
+        "limit": "As per IS 12269",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "Portland Slag Cement",
+        "test_name": "IS 455",
+        "reference_code_or_standard": "IS 455",
+        "limit": "As per IS 455",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "Portland Pozzolana Cement (Fly Ash based)",
+        "test_name": "IS 1489 (Part 1)",
+        "reference_code_or_standard": "IS 1489 (Part 1)",
+        "limit": "As per IS 1489 (Part 1)",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "Portland Pozzolana Cement (Calcined Clay based)",
+        "test_name": "IS 1489 (Part 2)",
+        "reference_code_or_standard": "IS 1489 (Part 2)",
+        "limit": "As per IS 1489 (Part 2)",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Sulphate Resisting Portland Cement",
+        "test_name": "IS 12330",
+        "reference_code_or_standard": "IS 12330",
+        "limit": "As per IS 12330",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "High Alumina Cement",
+        "test_name": "IS 6452",
+        "reference_code_or_standard": "IS 6452",
+        "limit": "As per IS 6452",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Low Heat Cement",
+        "test_name": "IS 12600",
+        "reference_code_or_standard": "IS 12600",
+        "limit": "As per IS 12600",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Super Sulphate Cement",
+        "test_name": "IS 6909",
+        "reference_code_or_standard": "IS 6909",
+        "limit": "As per IS 6909",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Rapid Hardening Cement",
+        "test_name": "IS 8041",
+        "reference_code_or_standard": "IS 8041",
+        "limit": "As per IS 8041",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "General Cement Quality Tests",
+        "test_name": "Fineness, Normal Consistency, Setting Time, Soundness, Compressive Strength, Heat of Hydration",
+        "reference_code_or_standard": "IS 269",
+        "limit": "As per IS 269",
+        "reference_page_number": 42
+      }
+    ]
+  },
+  {
+    "material_name": "Aggregates",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "Fine Aggregate (Natural or Crushed Sand)",
+        "test_name": "IS 383",
+        "reference_code_or_standard": "IS 383",
+        "limit": "Grading as per IS 383; Silt ≤ 3%",
+        "reference_page_number": 22
+      },
+      {
+        "specific_material_type": "Coarse Aggregate (Crushed Stone or Gravel)",
+        "test_name": "IS 383",
+        "reference_code_or_standard": "IS 383",
+        "limit": "As per IS 383",
+        "reference_page_number": 24
+      },
+      {
+        "specific_material_type": "Aggregate",
+        "test_name": "Specific Gravity Test",
+        "reference_code_or_standard": "IS 2386",
+        "limit": "≥ 2.6 (SSD basis)",
+        "reference_page_number": 23
+      },
+      {
+        "specific_material_type": "Aggregate",
+        "test_name": "Sedimentation Test",
+        "reference_code_or_standard": "IS 2386",
+        "limit": "Not more than 10% gain after 24 hours immersion",
+        "reference_page_number": 25
+      },
+      {
+        "specific_material_type": "Aggregate",
+        "test_name": "Soundness and Alkali Aggregate Reactivity Test",
+        "reference_code_or_standard": "IS 2386",
+        "limit": "As per IS 2386",
+        "reference_page_number": 42
+      },
+      {
+        "specific_material_type": "Aggregate",
+        "test_name": "Aggregate Crushing Value Test",
+        "reference_code_or_standard": "IS 2386",
+        "limit": "As per IS 2386",
+        "reference_page_number": 42
+      }
+    ]
+  },
+  {
+    "material_name": "Water",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "Mixing and Curing Water",
+        "test_name": "Compressive Strength of Concrete Cubes",
+        "reference_code_or_standard": "IS 516",
+        "limit": "≥ 90% of distilled water cube strength",
+        "reference_page_number": 25
+      },
+      {
+        "specific_material_type": "Mixing and Curing Water",
+        "test_name": "Initial Setting Time Test (with Cement)",
+        "reference_code_or_standard": "IS 4031 (Part 5)",
+        "limit": "≥ 30 min and within ±30 min of control",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water",
+        "test_name": "Limits of Acidity Test",
+        "reference_code_or_standard": "IS 3025 (Part 22)",
+        "limit": "≤ 5 ml of 0.02 N NaOH per 100 ml sample",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water",
+        "test_name": "Limits of Alkalinity Test",
+        "reference_code_or_standard": "IS 3025 (Part 23)",
+        "limit": "≤ 25 ml of 0.02 N H2SO4 per 100 ml sample",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water",
+        "test_name": "Organic and Inorganic Matter Test",
+        "reference_code_or_standard": "IS 3025 (Part 18)",
+        "limit": "Organic ≤ 200 mg/l, Inorganic ≤ 3000 mg/l",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water",
+        "test_name": "Sulphates Content Test",
+        "reference_code_or_standard": "IS 3025 (Part 24)",
+        "limit": "≤ 400 mg/l",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water",
+        "test_name": "Chlorides Content Test",
+        "reference_code_or_standard": "IS 3025 (Part 32)",
+        "limit": "≤ 2000 mg/l (plain), ≤ 500 mg/l (RCC)",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water",
+        "test_name": "Suspended Matter Test",
+        "reference_code_or_standard": "IS 3025 (Part 17)",
+        "limit": "≤ 2000 mg/l",
+        "reference_page_number": 26
+      }
+    ]
+  },
+  {
+    "material_name": "Admixtures",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "Air Entraining Agent",
+        "test_name": "Air Entraining Test",
+        "reference_code_or_standard": "ASTM C260",
+        "limit": "Air content 4% ± 1%",
+        "reference_page_number": 41
+      },
+      {
+        "specific_material_type": "Admixture (General)",
+        "test_name": "Compatibility and Chloride Content Test",
+        "reference_code_or_standard": "IS 9103",
+        "limit": "As per IS 9103",
+        "reference_page_number": 40
+      }
+    ]
+  }
+]
