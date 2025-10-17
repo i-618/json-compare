@@ -1,0 +1,283 @@
+[
+  {
+    "material_name": "Cement",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "33 Grade Ordinary Portland cement",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 269",
+        "limit": "As per IS 269",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "43 Grade ordinary Portland cement",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 8112",
+        "limit": "As per IS 8112",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "53 Grade ordinary Portland Cement",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 12269",
+        "limit": "As per IS 12269",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "Portland slag cement",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 455",
+        "limit": "As per IS 455",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "Portland pozzolana cement (fly ash based)",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 1489 (Part I)",
+        "limit": "As per IS 1489 (Part I)",
+        "reference_page_number": 19
+      },
+      {
+        "specific_material_type": "Portland pozzolona cement (calcined clay based)",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 1489 (Part 2)",
+        "limit": "As per IS 1489 (Part 2)",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Sulphate resisting Portland cement",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 12330",
+        "limit": "As per IS 12330",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "High Alumina cement",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 6452",
+        "limit": "As per IS 6452",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Low heat cement",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 12600",
+        "limit": "As per IS 12600",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Super sulphate cement",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 6909",
+        "limit": "As per IS 6909",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Rapid Hardening cement",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 8041",
+        "limit": "As per IS 8041",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Fly ash (pulverized fuel ash)",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 3812",
+        "limit": "Grade 1 as per IS 3812",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Silica fume",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "Approved standard by deciding authority",
+        "limit": "As per approved standard",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Rice husk ash",
+        "test_name": "Performance and uniformity test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "not mentioned",
+        "reference_page_number": 20
+      },
+      {
+        "specific_material_type": "Metakaoline",
+        "test_name": "Fineness test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "700 to 900 m²/kg",
+        "reference_page_number": 21
+      },
+      {
+        "specific_material_type": "Ground Granulated Blast Furnace Slag",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 12089",
+        "limit": "As per IS 12089",
+        "reference_page_number": 21
+      },
+      {
+        "specific_material_type": "Cement (general)",
+        "test_name": "Retesting",
+        "reference_code_or_standard": "National Test Laboratory/Approved Laboratory (As Approved by MDL)",
+        "limit": "Satisfactory results",
+        "reference_page_number": 21
+      }
+    ]
+  },
+  {
+    "material_name": "Aggregates",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "Fine Aggregate",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 383",
+        "limit": "As per IS 383",
+        "reference_page_number": 22
+      },
+      {
+        "specific_material_type": "Coarse Aggregate",
+        "test_name": "Conformity test",
+        "reference_code_or_standard": "IS 383",
+        "limit": "As per IS 383",
+        "reference_page_number": 22
+      },
+      {
+        "specific_material_type": "Aggregates (general)",
+        "test_name": "Specific gravity test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Not below 2.6 (saturated surface dry basis)",
+        "reference_page_number": 23
+      },
+      {
+        "specific_material_type": "Fine Aggregate",
+        "test_name": "Silt content test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Not more than 3% by weight",
+        "reference_page_number": 23
+      },
+      {
+        "specific_material_type": "Fine Aggregate",
+        "test_name": "Foreign material limitations test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Material finer than 75 micron: 3.00% uncrushed, 15.00% crushed; Shale: 1.00% uncrushed; Coal and lignite: 1.00%; Clay lumps: 1.00%; Total: 5.00% uncrushed, 2.00% crushed",
+        "reference_page_number": 23
+      },
+      {
+        "specific_material_type": "Fine Aggregate",
+        "test_name": "Grading test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Within limits for Grading Zone I to IV",
+        "reference_page_number": 23
+      },
+      {
+        "specific_material_type": "Fine Aggregate",
+        "test_name": "Fineness modulus test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Not less than 2.2 or more than 3.2",
+        "reference_page_number": 24
+      },
+      {
+        "specific_material_type": "Coarse Aggregate",
+        "test_name": "Foreign material limitations test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Material finer than 75 micron: 3.00%; Coal and lignite: 1.00%; Clay lumps: 1.00%; Soft fragments: 3.00% uncrushed; Total: 5.00%",
+        "reference_page_number": 25
+      },
+      {
+        "specific_material_type": "Coarse Aggregate",
+        "test_name": "Sedimentation test for fine particles",
+        "reference_code_or_standard": "IS 2386",
+        "limit": "Not exceed 1%",
+        "reference_page_number": 25
+      },
+      {
+        "specific_material_type": "Coarse Aggregate",
+        "test_name": "Water absorption test",
+        "reference_code_or_standard": "IS 2386",
+        "limit": "Not more than 10% of oven dry weight",
+        "reference_page_number": 25
+      },
+      {
+        "specific_material_type": "Coarse Aggregate",
+        "test_name": "Grading test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Within limits for single sized or graded aggregates",
+        "reference_page_number": 24
+      }
+    ]
+  },
+  {
+    "material_name": "Water",
+    "tests_and_procedures": [
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "Compressive strength test",
+        "reference_code_or_standard": "IS 456-2000, IS 516",
+        "limit": "Average 28 days compressive strength of at least three 150 mm concrete cubes not less than 90% of average strength with distilled water",
+        "reference_page_number": 25
+      },
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "Initial setting time test",
+        "reference_code_or_standard": "IS 456-2000, IS 4031 (Part 5)",
+        "limit": "Not less than 30 minutes and not differ by more than +/- 30 minutes from control test block",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "Acidity test",
+        "reference_code_or_standard": "IS 3025 (Part 22)",
+        "limit": "To neutralize 100 ml sample, not require more than 5 ml of 0.02 normal NaOH",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "Alkalinity test",
+        "reference_code_or_standard": "IS 3025 (Part 23)",
+        "limit": "To neutralize 100 ml sample, not require more than 25 ml of 0.02 normal H2SO4",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "Organic solids test",
+        "reference_code_or_standard": "IS 3025 (Part 18)",
+        "limit": "200 mg/l",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "Inorganic solids test",
+        "reference_code_or_standard": "IS 3025 (Part 18)",
+        "limit": "3000 mg/l",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "Sulphates test",
+        "reference_code_or_standard": "IS 3025 (Part 24)",
+        "limit": "400 mg/l (as SO4)",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "Chlorides test",
+        "reference_code_or_standard": "IS 3025 (Part 32)",
+        "limit": "2000 mg/l for concrete not containing embedded steel and 500 mg/l for reinforced cement concrete work (as Cl)",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "Suspended matter test",
+        "reference_code_or_standard": "IS 3025 (Part 17)",
+        "limit": "2000 mg/l",
+        "reference_page_number": 26
+      },
+      {
+        "specific_material_type": "Water for mixing and curing",
+        "test_name": "pH value test",
+        "reference_code_or_standard": "not mentioned",
+        "limit": "Not less than 6",
+        "reference_page_number": 26
+      }
+    ]
+  }
+]
